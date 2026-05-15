@@ -1,0 +1,38 @@
+package net.skylen.advanced.hud.config;
+
+public class AdvancedHUDConfigData {
+
+    public boolean enabled = true;
+
+    public boolean showFPS = true;
+
+    public boolean showPing = true;
+
+    public boolean showDirection = true;
+
+    public boolean showCoordinates = true;
+
+    public boolean showArmorHUD;
+
+    public boolean showDayCounter;
+
+    public enum EmptyArmorSlotBehaviour {
+
+        SHOW("Show"),
+        DONT_SHOW("Hide"),
+        MAKE_TRANSPARENT("Transparent");
+
+        private final String label;
+
+        EmptyArmorSlotBehaviour(String label) {
+            this.label = label;
+        }
+
+        @Override
+        public String toString() {
+            return label;
+        }
+    }
+    public EmptyArmorSlotBehaviour emptyArmorSlotBehaviour =
+            EmptyArmorSlotBehaviour.SHOW;
+}
