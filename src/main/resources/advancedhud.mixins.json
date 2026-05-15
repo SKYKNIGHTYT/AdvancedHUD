@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "net.skyknightyt.advanced.hud.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"OptionsScreenMixin",
+		"OptionsScreenAccessorMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
