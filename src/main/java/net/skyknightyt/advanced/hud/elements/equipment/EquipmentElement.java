@@ -61,7 +61,7 @@ public class EquipmentElement {
                         22, 22
                 );
 
-                render_i.item(stack, x + itemOffset, hotbarY + 3);
+                render_i.item(stack, x + 3, hotbarY + 3);
 
                 render_i.itemDecorations(minecraft.font, stack, x + 3, hotbarY + 3);
             }
