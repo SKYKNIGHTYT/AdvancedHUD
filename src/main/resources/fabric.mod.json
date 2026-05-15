@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://skyknightyt.net/personal/projects/mods/advancedhud/",
-		"sources": "https://github.com/SkylenDevelopments/AdvancedHUD",
+		"sources": "https://github.com/SKYKNIGHTYT/AdvancedHUD",
 		"website": "https://skyknightyt.net/personal/"
 	},
 	"license": "SHIELD",
@@ -18,9 +18,6 @@
 	"entrypoints": {
 		"client": [
 			"net.skylen.advanced.hud.AdvancedHUD"
-		],
-		"fabric-datagen": [
-			"net.skylen.advanced.hud.AdvancedHUDDataGenerator"
 		],
 		"modmenu": [
 			"net.skylen.advanced.hud.compat.ModMenuCompat"
