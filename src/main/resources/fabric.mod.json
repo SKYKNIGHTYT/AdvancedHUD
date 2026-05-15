@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "advancedhud",
+	"version": "${version}",
+	"name": "AdvancedHUD",
+	"description": "A unified HUD mod that does a lot of things!",
+	"authors": [
+		"SKY_KNIGHT_YT"
+	],
+	"contact": {
+		"homepage": "https://skyknightyt.net/personal/projects/mods/advancedhud/",
+		"sources": "https://github.com/SkylenDevelopments/AdvancedHUD",
+		"website": "https://skyknightyt.net/personal/"
+	},
+	"license": "SHIELD",
+	"icon": "assets/advancedhud/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"net.skylen.advanced.hud.AdvancedHUD"
+		],
+		"fabric-datagen": [
+			"net.skylen.advanced.hud.AdvancedHUDDataGenerator"
+		],
+		"modmenu": [
+			"net.skylen.advanced.hud.compat.ModMenuCompat"
+		]
+	},
+	"mixins": [
+		"advancedhud.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "0.19.2",
+		"minecraft": "26.1.2",
+		"java": "25",
+		"fabric-api": "0.148.2+26.1.2"
+	}
+}
